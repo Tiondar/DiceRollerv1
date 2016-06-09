@@ -148,8 +148,103 @@ public class RollerFragment extends Fragment {
             public void onClick(View v) {
 
                 //int d4Int = Dices.dices4();
-                Toast.makeText(getContext(),"Not yet implemented!!", Toast.LENGTH_SHORT).show();
-                //resultTextView.setText("Hai lanciato un d4, il risultato è:  " + d4Int);
+                int d4Numb = 1;
+                int d6Numb = 1;
+                int d8Numb = 1;
+                int d10Numb = 1;
+                int d12Numb = 1;
+                int d20Numb = 1;
+                int d100Numb = 1;
+                int modifyer = 1;
+
+
+
+                Dice dice = new Dice();
+                int sumd4 = 0;
+                if (d4Numb != 0){
+
+
+                    for (int i=0; i<d4Numb; i++){
+                        dice.setFaces(4);
+                        int d4array= dice.roll();
+                        sumd4 = sumd4 + d4array;
+                    }
+
+                }
+                int sumd6 = 0;
+                if (d6Numb != 0){
+
+
+                    for (int i=0; i<d6Numb; i++){
+                        dice.setFaces(6);
+                        int d6array= dice.roll();
+                        sumd6 = sumd6 + d6array;
+                    }
+
+                }
+                int sumd8 = 0;
+                if (d8Numb != 0){
+
+
+                    for (int i=0; i<d8Numb; i++){
+                        dice.setFaces(8);
+                        int d8array= dice.roll();
+                        sumd8 = sumd8 + d8array;
+                    }
+
+                }
+                int sumd10 = 0;
+                if (d10Numb != 0){
+
+
+                    for (int i=0; i<d10Numb; i++){
+                        dice.setFaces(10);
+                        int d10array= dice.roll();
+                        sumd10 = sumd10 + d10array;
+                    }
+
+                }
+                int sumd12 = 0;
+                if (d12Numb != 0){
+
+
+                    for (int i=0; i<d12Numb; i++){
+                        dice.setFaces(12);
+                        int d12array= dice.roll();
+                        sumd12 = sumd12 + d12array;
+                    }
+
+                }
+                int sumd20 = 0;
+                if (d20Numb != 0){
+
+
+                    for (int i=0; i<d20Numb; i++){
+                        dice.setFaces(20);
+                        int d20array= dice.roll();
+                        sumd20 = sumd20 + d20array;
+                    }
+
+                }
+                int sumd100 = 0;
+                if (d100Numb != 0){
+
+
+                    for (int i=0; i<d100Numb; i++){
+                        dice.setFaces(100);
+                        int d100array= dice.roll();
+                        sumd100 = sumd100 + d100array;
+                    }
+
+                }
+
+                int sum = sumd4 + sumd6 + sumd8 +sumd10 + sumd12 +sumd20 + sumd100 + modifyer;
+
+
+
+
+                //Toast.makeText(getContext(),"Not yet implemented!!", Toast.LENGTH_SHORT).show();
+                resultTextView.setText("Il totale è:  " + sum + "                                                   " + d4Numb + "d4: " + sumd4+ "; " + d6Numb +  "d6: " + sumd6 + "; " + d8Numb +  "d8: " + sumd8 + "; " + d10Numb + "d10: " + sumd10 +  "; " + d12Numb + "d12: " + sumd12 + "; " + d20Numb + "d20: " + sumd20 + "; " + d100Numb + "d100: " + sumd100 + " modifyer: " + modifyer);
 
             }
         });
