@@ -243,8 +243,8 @@ public class RollerFragment extends Fragment {
 
 
 
-                //Toast.makeText(getContext(),"Not yet implemented!!", Toast.LENGTH_SHORT).show();
-                resultTextView.setText("Il totale è:  " + sum + "                                                   " + d4Numb + "d4: " + sumd4+ "; " + d6Numb +  "d6: " + sumd6 + "; " + d8Numb +  "d8: " + sumd8 + "; " + d10Numb + "d10: " + sumd10 +  "; " + d12Numb + "d12: " + sumd12 + "; " + d20Numb + "d20: " + sumd20 + "; " + d100Numb + "d100: " + sumd100 + " modifyer: " + modifyer);
+                Toast.makeText(getContext(),"Dummy!! Cannot be setted", Toast.LENGTH_SHORT).show();
+                resultTextView.setText("Total throws:   " + sum + "                                                   " + d4Numb + "d4: " + sumd4+ "; " + d6Numb +  "d6: " + sumd6 + "; " + d8Numb +  "d8: " + sumd8 + "; " + d10Numb + "d10: " + sumd10 +  "; " + d12Numb + "d12: " + sumd12 + "; " + d20Numb + "d20: " + sumd20 + "; " + d100Numb + "d100: " + sumd100 + " modifyer: " + modifyer);
 
             }
         });
