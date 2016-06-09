@@ -131,7 +131,7 @@ public class RollerFragment extends Fragment {
                 dice.setFaces(100);
                 int d100Int = dice.roll();
 
-                //Toast.makeText(getContext(),"Hai lanciato un d100!!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(),"Hai lanciato un d100!!", Toast.LENGTH_SHORT).show();
                 resultTextView.setText("Hai lanciato un d100, il risultato è:  " + d100Int);
 
             }
@@ -148,13 +148,13 @@ public class RollerFragment extends Fragment {
                 int d12Numb = 1;
                 int d20Numb = 1;
                 int d100Numb = 1;
-                int modifyer = 1;
+                int modifyer = -1;
 
 
 
                 Dice dice = new Dice();
                 int sumd4 = 0;
-                if (d4Numb != 0){
+                if (d4Numb > 0){
 
 
                     for (int i=0; i<d4Numb; i++){
