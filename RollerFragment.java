@@ -47,7 +47,7 @@ public class RollerFragment extends Fragment {
                 Dice dice = new Dice();
                 dice.setFaces(4);
                 int d4Int = dice.roll();
-                //int d4Int = Dices.dices4();
+
                 //Toast.makeText(getContext(),"Hai lanciato un d4!!", Toast.LENGTH_SHORT).show();
                 resultTextView.setText("Hai lanciato un d4, il risultato è:  " + d4Int);
             }
@@ -61,7 +61,6 @@ public class RollerFragment extends Fragment {
                 dice.setFaces(6);
                 int d6Int = dice.roll();
 
-                //int d6Int = Dices.dices6();
                 //Toast.makeText(getContext(),"Hai lanciato un d6!!", Toast.LENGTH_SHORT).show();
                 resultTextView.setText("Hai lanciato un d6, il risultato è:  " + d6Int);
 
@@ -76,7 +75,6 @@ public class RollerFragment extends Fragment {
                 dice.setFaces(8);
                 int d8Int = dice.roll();
 
-                //int d8Int = Dices.dices8();
                 //Toast.makeText(getContext(),"Hai lanciato un d8!!", Toast.LENGTH_SHORT).show();
                 resultTextView.setText("Hai lanciato un d8, il risultato è:  " + d8Int);
 
@@ -91,7 +89,6 @@ public class RollerFragment extends Fragment {
                 dice.setFaces(10);
                 int d10Int = dice.roll();
 
-                //int d10Int = Dices.dices10();
                 //Toast.makeText(getContext(),"Hai lanciato un d10!!", Toast.LENGTH_SHORT).show();
                 resultTextView.setText("Hai lanciato un d10, il risultato è:  " + d10Int);
 
@@ -106,7 +103,6 @@ public class RollerFragment extends Fragment {
                 dice.setFaces(12);
                 int d12Int = dice.roll();
 
-                //int d12Int = Dices.dices12();
                 //Toast.makeText(getContext(),"Hai lanciato un d12!!", Toast.LENGTH_SHORT).show();
                 resultTextView.setText("Hai lanciato un d12, il risultato è:  " + d12Int);
 
@@ -121,7 +117,6 @@ public class RollerFragment extends Fragment {
                 dice.setFaces(20);
                 int d20Int = dice.roll();
 
-                //int d20Int = Dices.dices20();
                 //Toast.makeText(getContext(),"Hai lanciato un d20!!", Toast.LENGTH_SHORT).show();
                 resultTextView.setText("Hai lanciato un d20, il risultato è:  " + d20Int);
 
@@ -136,7 +131,6 @@ public class RollerFragment extends Fragment {
                 dice.setFaces(100);
                 int d100Int = dice.roll();
 
-                //int d100Int = Dices.dices100();
                 //Toast.makeText(getContext(),"Hai lanciato un d100!!", Toast.LENGTH_SHORT).show();
                 resultTextView.setText("Hai lanciato un d100, il risultato è:  " + d100Int);
 
@@ -147,7 +141,6 @@ public class RollerFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-                //int d4Int = Dices.dices4();
                 int d4Numb = 1;
                 int d6Numb = 1;
                 int d8Numb = 1;
@@ -253,7 +246,7 @@ public class RollerFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-                //int d4Int = Dices.dices4();
+
                 //Toast.makeText(getContext(),"Not yet implemented!!", Toast.LENGTH_LONG).show();
                 //resultTextView.setText("Hai lanciato un d4, il risultato è:  " + d4Int);
 
