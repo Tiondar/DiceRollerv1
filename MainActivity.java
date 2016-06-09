@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ActionBar bar = getSupportActionBar();
-        bar.setBackgroundDrawable(getResources().getDrawable(R.drawable.woodtexture1));
+        bar.setBackgroundDrawable(getDrawable(R.drawable.woodtexture1));
 
 
 

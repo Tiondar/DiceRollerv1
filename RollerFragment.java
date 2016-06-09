@@ -131,7 +131,7 @@ public class RollerFragment extends Fragment {
                 dice.setFaces(100);
                 int d100Int = dice.roll();
 
-                Toast.makeText(getContext(),"Hai lanciato un d100!!", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getContext(),"Hai lanciato un d100!!", Toast.LENGTH_SHORT).show();
                 resultTextView.setText("Hai lanciato un d100, il risultato è:  " + d100Int);
 
             }
