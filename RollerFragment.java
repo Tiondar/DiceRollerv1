@@ -141,7 +141,7 @@ public class RollerFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-                int d4Numb = 1;
+                int d4Numb = 0;
                 int d6Numb = 1;
                 int d8Numb = 1;
                 int d10Numb = 1;
@@ -154,7 +154,7 @@ public class RollerFragment extends Fragment {
 
                 Dice dice = new Dice();
                 int sumd4 = 0;
-                if (d4Numb > 0){
+                if (d4Numb != 0){
 
 
                     for (int i=0; i<d4Numb; i++){

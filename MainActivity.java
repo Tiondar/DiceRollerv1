@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
         RollerFragment rollerFragment = new RollerFragment();
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction().add(R.id.mainLayout,rollerFragment).addToBackStack(null);
